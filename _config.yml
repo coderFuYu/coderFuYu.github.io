@@ -105,4 +105,4 @@ deploy:
   type: git
   repo:
     github: git@github.com:coderFuYu/coderFuYu.github.io.git
-  branch: main
+  branch: master
