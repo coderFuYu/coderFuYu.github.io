@@ -1,4 +1,4 @@
 ---
-title: gallery
+title: 图集
 date: 2022-08-16 12:18:09
 ---

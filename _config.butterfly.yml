@@ -7,9 +7,9 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  照片: /gallery/ || fas fa-images
+  # 照片: /gallery/ || fas fa-images
   友情链接: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
+  # 关于: /about/ || fas fa-heart
 
 
 
@@ -87,13 +87,13 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://fycoder.oss-cn-hangzhou.aliyuncs.com/Blog/banner.jpg
+index_img: https://oss.fycoder.top/Blog/banner.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img:  https://oss.fycoder.top/Blog/defaultTopImg.jpg
 
 # The banner image of archive page
-archive_img:
+archive_img: https://oss.fycoder.top/Blog/archives.jpeg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
@@ -855,7 +855,7 @@ CDN:
   # when set it to local, you need to install hexo-butterfly-extjs
   third_party_provider: jsdelivr
 
-  # Add version number to CDN, true or false  
+  # Add version number to CDN, true or false
   version: false
 
   # Custom format
